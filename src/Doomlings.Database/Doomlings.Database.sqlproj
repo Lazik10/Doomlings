@@ -6,7 +6,7 @@
     <Name>Doomlings.Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{9ed3414d-a109-4308-9f72-ddbcc17394be}</ProjectGuid>
+    <ProjectGuid>{9d036f48-f95f-4adb-b532-028ad1a5c38d}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
