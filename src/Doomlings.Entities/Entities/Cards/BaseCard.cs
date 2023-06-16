@@ -19,6 +19,6 @@ namespace Doomlings.Entities.Entities.Cards
 
         public virtual Expansion Expansion { get; set; }
 
-        public virtual IconInfo IconInfo { get; set; } = new IconInfo();
+        public virtual ICollection<Icon> Icons { get; set; } = new List<Icon>();
     }
 }

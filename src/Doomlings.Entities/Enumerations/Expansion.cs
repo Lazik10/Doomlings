@@ -11,6 +11,6 @@
         Mythlings                       = 6,
         Techlings                       = 7,
         TheMeaningOfLife                = 8,
-
+        Color                           = 9,
     }
 }

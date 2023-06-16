@@ -17,6 +17,6 @@ namespace Doomlings.Entities.Entities.Cards
 
         Expansion Expansion { get; }
 
-        IconInfo IconInfo { get; }
+        ICollection<Icon> Icons { get; }
     }
 }

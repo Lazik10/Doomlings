@@ -8,7 +8,7 @@
         Star                            = 1,
         Triangle                        = 2,
         DropOfLife                      = 4,
-        A                               = 8,
+        Action                          = 8,
         Wings                           = 16,
 
         // Dinolings expansion icons

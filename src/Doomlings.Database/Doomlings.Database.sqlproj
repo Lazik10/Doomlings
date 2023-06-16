@@ -56,5 +56,35 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Schema" />
+    <Folder Include="Tables" />
+    <Folder Include="Tables\Cards" />
+    <Folder Include="PostDeployments" />
+    <Folder Include="Tables\Icons" />
+    <Folder Include="Tables\JoinTables" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doomlings.Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Schemas.sql" />
+    <Build Include="Tables\Cards\AgeCards.sql" />
+    <Build Include="Tables\Cards\BirthCards.sql" />
+    <Build Include="Tables\Cards\GenePoolCards.sql" />
+    <Build Include="Tables\Cards\PlayerAidCards.sql" />
+    <Build Include="Tables\Cards\SignCards.sql" />
+    <Build Include="Tables\Cards\TraitCards.sql" />
+    <Build Include="Tables\Icons\Icons.sql" />
+    <Build Include="Tables\JoinTables\AgeCardIcon.sql" />
+    <Build Include="Tables\JoinTables\BirthCardIcon.sql" />
+    <Build Include="Tables\JoinTables\GenePoolIcon.sql" />
+    <Build Include="Tables\JoinTables\PlayerAidCardIcon.sql" />
+    <Build Include="Tables\JoinTables\SignCardIcon.sql" />
+    <Build Include="Tables\JoinTables\TraitCardIcon.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="PostDeployments\InsertCards.sql" />
+    <None Include="PostDeployments\InsertIcons.sql" />
+    <None Include="PostDeployments\InsertManyToManyRelations.sql" />
   </ItemGroup>
 </Project>
